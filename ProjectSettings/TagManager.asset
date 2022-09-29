@@ -10,6 +10,8 @@ TagManager:
   - Sports
   - Movies
   - Categories
+  - False
+  - True
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,58 +14,62 @@ public class QuestionLibrary : MonoBehaviour
     private static List<Question> unansweredQuestions;
 
     private Question currentQuestion;
+    private int index;
+    
+    //[SerializeField] private Sprite answer;
 
-    [SerializeField] private Text questionText;
+    [SerializeField] private TextMeshProUGUI questionText;
     [SerializeField] private float timeBetweenQuestion = 2f;
-    private void Start()
-    {
+    
+    [SerializeField] private Image answerRenderer;
+    [SerializeField] private Sprite falseSprite;
+    [SerializeField] private Sprite trueSprite;
+
+    private void Start() {
+       
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
             unansweredQuestions = questions.ToList<Question>();
         }
 
+        index = 0;
         SetCurrentQuestion();
-        Debug.Log(currentQuestion.question + "is" + currentQuestion.isTrue);
+        Debug.Log(currentQuestion.question);
+        Debug.Log( currentQuestion.isTrue);
+    }
+    
+    public void SetCurrentQuestion()
+    {
+        currentQuestion = unansweredQuestions[index];
+        questionText.text = currentQuestion.question;
     }
 
-    void SetCurrentQuestion()
+    void ResetQuestions()
     {
-        int randomQuestionIndex = Random.Range(0, unansweredQuestions.Count);
-        currentQuestion = unansweredQuestions[randomQuestionIndex];
-
-        questionText.text = currentQuestion.question;
-        
+        answerRenderer.sprite = null;
     }
 
     IEnumerator TransitionToNextQuestion()
     {
         unansweredQuestions.Remove(currentQuestion);
+        ResetQuestions();
         yield return  new WaitForSeconds(timeBetweenQuestion);
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SetCurrentQuestion();
     }
 
-    public void UserSelectTrue()
+    public void ButtonPressed()
     {
         if (currentQuestion.isTrue)
         {
-            Debug.Log("Correct");
+            answerRenderer.sprite = trueSprite;
         }
-        else Debug.Log("Incorrect");
-
-        StartCoroutine(TransitionToNextQuestion());
-    }
-    
-    public void UserSelectFalse()
-    {
-        if (!currentQuestion.isTrue)
+        else
         {
-            Debug.Log("Correct");
+            answerRenderer.sprite = falseSprite;
         }
-        else Debug.Log("Incorrect");
         
         StartCoroutine(TransitionToNextQuestion());
     }
-
     
 }

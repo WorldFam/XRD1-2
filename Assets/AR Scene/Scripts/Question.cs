@@ -6,6 +6,4 @@ public class Question : MonoBehaviour
 {
     public string question;
     public bool isTrue;
-    
-    
 }
