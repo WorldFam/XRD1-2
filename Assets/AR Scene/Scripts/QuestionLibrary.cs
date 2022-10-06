@@ -15,61 +15,102 @@ public class QuestionLibrary : MonoBehaviour
 
     private Question currentQuestion;
     private int index;
+    private int score;
     
+    private int quizLength;
     //[SerializeField] private Sprite answer;
 
-    [SerializeField] private TextMeshProUGUI questionText;
+    private TextMeshProUGUI questionText;
     [SerializeField] private float timeBetweenQuestion = 2f;
     
     [SerializeField] private Image answerRenderer;
     [SerializeField] private Sprite falseSprite;
     [SerializeField] private Sprite trueSprite;
+    
+    [SerializeField] private GameObject answerImage;
+    [SerializeField] private GameObject trueButton;
+    [SerializeField] private GameObject falseButton;
+    [SerializeField] private GameObject resetButton;
 
-    private void Start() {
-       
+    private void Start()
+    {
+        questionText = GameObject.FindGameObjectWithTag("questionText").GetComponent<TextMeshProUGUI>();
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
             unansweredQuestions = questions.ToList<Question>();
+            quizLength = unansweredQuestions.Count;
         }
 
         index = 0;
+        score = 0;
         SetCurrentQuestion();
-        Debug.Log(currentQuestion.question);
-        Debug.Log( currentQuestion.isTrue);
     }
-    
+
     public void SetCurrentQuestion()
     {
         currentQuestion = unansweredQuestions[index];
         questionText.text = currentQuestion.question;
     }
 
-    void ResetQuestions()
-    {
-        answerRenderer.sprite = null;
-    }
-
     IEnumerator TransitionToNextQuestion()
     {
         unansweredQuestions.Remove(currentQuestion);
-        ResetQuestions();
-        yield return  new WaitForSeconds(timeBetweenQuestion);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        SetCurrentQuestion();
+        yield return new WaitForSeconds(timeBetweenQuestion);
+        answerImage.SetActive(false);
+        
+        if (unansweredQuestions.Count == 0)
+        {
+            EndQuiz();
+        }
+        else
+        {
+            SetCurrentQuestion();
+            Canvas.ForceUpdateCanvases();
+        }
+    }
+    
+    public void TruePressed()
+    {
+        if (currentQuestion.isTrue)
+        {
+            score++;
+        }
+
+        ButtonPressed();
+    }
+    
+    public void FalsePressed()
+    {
+        if (!currentQuestion.isTrue)
+        {
+            score++;
+        }
+        ButtonPressed();
     }
 
     public void ButtonPressed()
     {
-        if (currentQuestion.isTrue)
-        {
-            answerRenderer.sprite = trueSprite;
-        }
-        else
-        {
-            answerRenderer.sprite = falseSprite;
-        }
-        
+        answerRenderer.sprite = currentQuestion.isTrue ? trueSprite : falseSprite;
+        answerImage.SetActive(true);
+
         StartCoroutine(TransitionToNextQuestion());
     }
-    
+
+    public void EndQuiz()
+    {
+        trueButton.SetActive(false);
+        falseButton.SetActive(false);
+        resetButton.SetActive(true);
+        questionText.text = score + "/" + quizLength;
+    }
+
+    public void ResetPressed()
+    {
+        resetButton.SetActive(false);
+        trueButton.SetActive(true);
+        falseButton.SetActive(true);
+        Canvas.ForceUpdateCanvases();
+        Start();
+    }
+
 }

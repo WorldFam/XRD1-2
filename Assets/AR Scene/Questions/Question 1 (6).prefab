@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2613296918489077208
+--- !u!1 &7214826593254567148
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2613296918489077211}
-  - component: {fileID: 2613296918489077202}
-  m_Layer: 5
-  m_Name: Card
+  - component: {fileID: 7214826593254567150}
+  - component: {fileID: 7214826593254567151}
+  m_Layer: 0
+  m_Name: Question 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2613296918489077211
+--- !u!4 &7214826593254567150
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2613296918489077208}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_GameObject: {fileID: 7214826593254567148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 453.58926, y: 200.25717, z: -616.4092}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2613296918489077202
+--- !u!114 &7214826593254567151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2613296918489077208}
+  m_GameObject: {fileID: 7214826593254567148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed053f2e3ced1f5448e8baabb17deedf, type: 3}
+  m_Script: {fileID: 11500000, guid: fd64986edeba09147b6745a1f0f09c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomSpriteRenderer: {fileID: 0}
-  randomSprites:
-  - {fileID: 21300000, guid: a8911e9e7a0f67743860e93dcc8e92ba, type: 3}
+  question: It takes a sloth two weeks to digest a meal.
+  isTrue: 1

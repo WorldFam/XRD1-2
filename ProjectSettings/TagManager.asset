@@ -12,6 +12,7 @@ TagManager:
   - Categories
   - False
   - True
+  - questionText
   layers:
   - Default
   - TransparentFX

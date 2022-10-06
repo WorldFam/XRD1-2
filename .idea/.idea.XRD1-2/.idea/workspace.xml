@@ -3,12 +3,100 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b650175e-f5ea-4eb7-9a9f-f27ec028057e" name="Default Changelist" comment="" />
+    <list default="true" id="b650175e-f5ea-4eb7-9a9f-f27ec028057e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XRD1-2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRD1-2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XRD1-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRD1-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AR Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AR Scene/Card.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Geography/Geography 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/History/History 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Movies/Movies 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/CanvasOBjec.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/CanvasOBjec.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/Categories.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/Categories.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/GameObject 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/GameObject 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/ImageRandomizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/ImageRandomizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Scripts/QuestionLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AR Scene/Scripts/QuestionLibrary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Sports/Sports 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Vector 2-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AR Scene/Vector 2-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Downloads/AR_Measure-master/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/ARKitHelper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -16,7 +104,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/AR Filter Scene/Scripts/FaceSwap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@4.1.9/Runtime/AR/ARFaceManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AR Scene/Scripts/Question.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AR Scene/Scripts/Categories.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@4.1.9/Runtime/AR/ARFaceMeshVisualizer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -27,9 +114,11 @@
         <option value="$PROJECT_DIR$/Assets/AR Filter Scene/Scripts/FaceAngleRelativeToCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/AR Filter Scene/Scripts/ImageRandomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/Categories.cs" />
-        <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/QuestionLibrary.cs" />
         <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/Question.cs" />
         <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/ImageRandomizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/ImagePalceHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/ImagePlaceHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/AR Scene/Scripts/QuestionLibrary.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +166,7 @@
       <workItem from="1663679083743" duration="8181000" />
       <workItem from="1664379856933" duration="4898000" />
       <workItem from="1664385184676" duration="10618000" />
+      <workItem from="1665038595715" duration="17700000" />
     </task>
     <servers />
   </component>
@@ -85,7 +175,32 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="630" key="VCS.FileHistoryDialog" timestamp="1665086431941">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="VCS.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1665086431941" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1665093201528">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1665093201528" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1665088942165">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1665088942165" />
   </component>
 </project>
